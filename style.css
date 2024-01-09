@@ -1,0 +1,398 @@
+/*
+Theme Name: Health Pal
+Author: Brian Kelley
+Version: 1.0
+*/
+    /* Optional: Add custom styles here */
+
+
+  
+      @media (min-width: 768px) {
+        body {
+          padding-top: 0; /* Reset padding for larger screens */
+        }
+      }
+      .navbar {
+        background-color: #1C2A3A;
+      }
+      .navbar-collapse .navbar-nav .nav-item .nav-link {
+        font-size: 20px;
+        color: white;
+      }
+      .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+        font-size: 20px;
+        color:#88B7A4;
+        text-decoration: underline;
+      }
+      .navbar .navbar-text button {
+        background-color: #88B7A4;
+        color: black;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: none;
+        border-radius: 10px;
+
+      }
+      .navbar .navbar-text button:hover {
+        background-color: #689180;
+        color: black;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: none;
+        border-radius: 10px;
+
+      }
+      .background-header {
+        background-image: url("http://health-pal.local/wp-content/uploads/2023/11/Header-BG.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 120vh;
+      }
+      .header-content h2 {
+        color: white;
+        font-size: 60px;
+        width: 580px;
+        padding-top: 100px;
+        font-weight: 800;
+      }
+      .header-content .color-light-green {
+        color: #88B7A4;
+      }
+      .header-content img {
+        margin-left: 150px;
+        
+      }
+      .header-content p {
+        color: white;
+        font-size: 30px;
+      }
+      .header-content .download-button {
+        background-color: #88B7A4;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 25px;
+        border: none;
+        margin-top: 10px;
+        font-weight: bold;
+        border-radius: 10px;
+
+      }
+      .header-content .download-button:hover {
+        background-color: #689180;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 25px;
+        border: none;
+        margin-top: 10px;
+        font-weight: bold;
+        border-radius: 10px;
+
+      }
+      .features-section h2 {
+        text-align: center;
+        font-size: 40px;
+        font-weight: 800;
+      }
+      .features-section .card {
+        text-align: center !important;
+        margin-top: 100px;
+        height: 300px;
+        margin-left: 110px;
+        margin-right: 110px;
+        border: none;
+
+      }
+      .features-section .card img {
+       width: 80px !important;
+       margin-top: 20px;
+      }
+      .features-section .card .card-title {
+        font-size: 20px;
+        font-weight: 700;
+      }
+      .section-three {
+        background-image: url("http://health-pal.local/wp-content/uploads/2023/11/Section-2.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 680px;
+        background-color: #1C2A3A;
+        margin-top: 100px;
+        padding-top: 80px;
+      }
+      .section-three h2 {
+        color: white;
+        font-size: 70px;
+        font-weight: 800;
+      }
+      .section-three p {
+        color: rgb(183, 183, 183);
+        font-size: 40px;
+      }
+      .access-section {
+        background-color: #88B7A4;
+        height: 340px;
+        margin-top: 280px;
+        padding-top: 50px;
+        position:relative;
+        
+      }
+      .access-section h2 {
+        color: rgb(0, 0, 0);
+        font-size: 40px;
+        font-weight: 800;
+      }
+      .access-section p {
+        font-size: 30px;
+        width: 70%;
+      }
+      .access-section img {
+        position: absolute;
+        bottom: -130px; /* Adjust this value as needed */
+          }
+      .section-four {
+        margin-top: 300px;
+      }
+      .section-four h2 {
+        font-size: 40px;
+        font-weight: 800;
+      }
+      .section-four p {
+        font-size: 30px;
+      }
+      .section-four a {
+        color: #5E8E84;
+        font-weight: bold;
+        font-size: 30px;
+      }
+      .extra-features {
+        background-image: url("http://health-pal.local/wp-content/uploads/2023/11/Section-5.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center;
+        height: 400px;
+        margin-top: 100px;
+        padding-top: 140px;
+      }
+      .extra-features h2 {
+        font-weight: 800;
+        font-size: 50px;
+      }
+     .book-appointment {
+      background-color: #88B7A4;
+      height: 220px;
+      position: relative;
+      margin-top: 200px;
+      margin-bottom: 300px;
+     }
+     .book-appointment img {
+      position: absolute;
+      bottom: -185px;
+
+     }
+      .content-book h2 {
+        text-align: center;
+        font-weight: 800;
+        padding-right: 120px;
+        padding-top: 180px;
+        padding-bottom: 50px;
+      }
+
+     
+      
+      
+    
+      .center {
+        margin: auto;
+        width: 60%;
+      }
+      .reviews h2 {
+        text-align: center;
+        font-size: 40px;
+        font-weight: 800;
+        margin-top: 100px;
+      }
+      .carousel-item {
+        background-color: #5E8E84;
+        width: 100%;
+        padding: 150px;
+        display: flex;
+      }
+
+
+    footer {
+      background-image: url("http://health-pal.local/wp-content/uploads/2023/11/Header-BG1.png");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-position: center;
+      height: 625px;
+      margin-top: 100px;
+    }
+
+.footer-links {
+  padding-top: 150px;
+}
+      /* Float */
+.hvr-float {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-float:hover, .hvr-float:focus, .hvr-float:active {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+.socials {
+  font-size: 35px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.form-content button {
+  background-color: #88B7A4;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: none;
+  border-radius: 10px;
+}
+
+
+
+.header-content-page {
+  background-image: url("img/Header\ BG.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50vh;
+}
+
+@media only screen and (max-width: 600px) {
+/* General Styles */
+body {
+  font-family: 'Your Font', sans-serif;
+}
+
+
+/* Header Styles */
+.background-header {
+  background-color: #f5f5f5;
+  padding: 50px 0;
+}
+
+.header-content  {
+  text-align: center;
+  display: block;
+}
+.header-content img {
+  display: none;
+}
+.header-content h2 {
+  font-size: 0.5em;
+  text-align: left;
+  padding-left: 120px;
+}
+
+.header-content p {
+  font-size: 1.2em;
+}
+
+.download-button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+}
+
+/* Features Section Styles */
+.features-section {
+  background-color: #e0e0e0;
+  padding: 50px 0;
+}
+
+.card-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  width: 30%;
+  margin: 10px;
+}
+
+/* Section Three Styles */
+.section-three {
+  background-color: #f5f5f5;
+  padding: 50px 0;
+}
+
+.section-three img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Access Section Styles */
+.access-section {
+  background-color: #e0e0e0;
+  padding: 50px 0;
+}
+
+/* Section Four Styles */
+.section-four {
+  background-color: #f5f5f5;
+  padding: 50px 0;
+}
+
+/* Extra Features Styles */
+.extra-features {
+  background-color: #e0e0e0;
+  padding: 50px 0;
+}
+
+/* Content Book Styles */
+.content-book {
+  text-align: center;
+  padding: 50px 0;
+}
+
+/* Book Appointment Styles */
+.book-appointment {
+  background-color: #f5f5f5;
+  padding: 50px 0;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+
+}
+.entry-footer {
+  display: none;
+}
+
+.website-main-page {
+  height: 120vh;
+}
